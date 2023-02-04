@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cpp_lang_back"
+    tools:context=".CPP_Language">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DA2B4B5C"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <!--                Queation 1 ans 4-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q1.) Who invented C++?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/cpprg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/cpprb11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Dennis Ritchie" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Ken Thompson" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Brian Kernighan" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Bjarne Stroustrup" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 2 ans 3-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q2.) Which of the following approach is used by \nC++?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/cpprg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/cpprb21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Left-rightLeft-right" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Right-left" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Bottom-up" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Top-down" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 3 ans 3-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q3.) Which of the following is the correct extension of the C++ file?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/cpprg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/cpprb31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" .c++" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" .c" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" .cpp" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" .cp+" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 4 ans 1-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q4.) What is C++?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/cpprg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/cpprb41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" C++ supports both procedural and object oriented programming language" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" C++ is an object oriented programming language" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text="  C++ is a functional programming language" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" C++ is a procedural programming language" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 5 ans 1-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q5.) Which of the following is a correct identifier in C++?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/cpprg5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/cpprb51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" VAR_1234" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" $var_name" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" 7VARNAME" />
+
+                    <RadioButton
+                        android:id="@+id/cpprb54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" 7var_name" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/cpp_clear_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Clear All"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/cpp_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:fontFamily="serif"
+                    android:text="Submit"
+                    android:textSize="16sp"
+                    app:cornerRadius="30dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/cpp_result1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:letterSpacing="0.2"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Result"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cpp_result2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:text="15/15"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ProgressBar
+                        android:id="@+id/cpp_progress_bar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:indeterminateOnly="false"
+                        android:progressDrawable="@drawable/progress_bar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

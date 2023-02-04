@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/php_lang_back"
+    tools:context=".PHP_Language">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DA2B4B5C"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <!--                Queation 1 ans 4-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q1.) What is PHP?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/phprg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/phprb11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" PHP is an open-source programming language" />
+
+                    <RadioButton
+                        android:id="@+id/phprb12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" PHP is used to develop dynamic and interactive websites" />
+
+                    <RadioButton
+                        android:id="@+id/phprb13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" PHP is a server-side scripting language" />
+
+                    <RadioButton
+                        android:id="@+id/phprb14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" All of the mentioned" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 2 ans 2-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q2.) Who is the father of PHP?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/phprg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/phprb21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Drek Kolkevi" />
+
+                    <RadioButton
+                        android:id="@+id/phprb22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Rasmus Lerdorf" />
+
+                    <RadioButton
+                        android:id="@+id/phprb23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Willam Makepiece" />
+
+                    <RadioButton
+                        android:id="@+id/phprb24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" List Barely" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 3 ans 3-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q3.) What does PHP stand for?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/phprg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/phprb31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" PHP stands for Preprocessor Home Page" />
+
+                    <RadioButton
+                        android:id="@+id/phprb32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" PHP stands for Pretext Hypertext Processor" />
+
+                    <RadioButton
+                        android:id="@+id/phprb33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" PHP stands for Hypertext Preprocessor" />
+
+                    <RadioButton
+                        android:id="@+id/phprb34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" PHP stands for Personal Hyper Processor" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 4 ans 1-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q4.) Which of the following is the default file extension of PHP files?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/phprg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/phprb41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" .php" />
+
+                    <RadioButton
+                        android:id="@+id/phprb42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" .ph" />
+
+                    <RadioButton
+                        android:id="@+id/phprb43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" .xml" />
+
+                    <RadioButton
+                        android:id="@+id/phprb44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" .html" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 5 ans 3-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q5.) How to define a function in PHP?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/phprg5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/phprb51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" functionName(parameters) {function body}" />
+
+                    <RadioButton
+                        android:id="@+id/phprb52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" function {function body}" />
+
+                    <RadioButton
+                        android:id="@+id/phprb53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" function functionName(parameters) {function body}" />
+
+                    <RadioButton
+                        android:id="@+id/phprb54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" data type functionName(parameters) {function body}" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/php_clear_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Clear All"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/php_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:fontFamily="serif"
+                    android:text="Submit"
+                    android:textSize="16sp"
+                    app:cornerRadius="30dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/php_result1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:letterSpacing="0.2"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Result"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/php_result2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:text="15/15"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ProgressBar
+                        android:id="@+id/php_progress_bar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:indeterminateOnly="false"
+                        android:progressDrawable="@drawable/progress_bar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

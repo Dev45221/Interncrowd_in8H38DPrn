@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/geography_back"
+    tools:context=".Geography">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DA2B4B5C"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <!--                Queation 1 ans 4-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q1.) Which of the following geographical term related to the &quot;piece of sub-continental land that is surrounded by water&quot;?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/georg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/grb11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Peninsula" />
+
+                    <RadioButton
+                        android:id="@+id/grb12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Gulf" />
+
+                    <RadioButton
+                        android:id="@+id/grb13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Strait" />
+
+                    <RadioButton
+                        android:id="@+id/grb14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Island" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 2 ans 2-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q2.) Which of the following is a suitable definition of ‘Archipelago’?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/georg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/grb21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" A circular coral reef that encloses a shallow lagoon." />
+
+                    <RadioButton
+                        android:id="@+id/grb22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" A chain or set of islands grouped together." />
+
+                    <RadioButton
+                        android:id="@+id/grb23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" The plant and animal life on the earth." />
+
+                    <RadioButton
+                        android:id="@+id/grb24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" None of the above" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 3 ans 3-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q3.) Which of the following is the largest Archipelago in the world?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/georg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/grb31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Andaman &amp; Nicobar Island" />
+
+                    <RadioButton
+                        android:id="@+id/grb32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Malaysia" />
+
+                    <RadioButton
+                        android:id="@+id/grb33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Indonesia" />
+
+                    <RadioButton
+                        android:id="@+id/grb34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Maldives" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 4 ans 3-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q4.) Which of the following is the world’s largest peninsula?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/georg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/grb41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" India" />
+
+                    <RadioButton
+                        android:id="@+id/grb42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" South Africa" />
+
+                    <RadioButton
+                        android:id="@+id/grb43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Arabia" />
+
+                    <RadioButton
+                        android:id="@+id/grb44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Both A &amp; B" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 5 ans 4-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q5.) Which of the following pass has been created by the Indus River?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/georg5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/grb51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Rohtas Pass" />
+
+                    <RadioButton
+                        android:id="@+id/grb52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Nathula Pass" />
+
+                    <RadioButton
+                        android:id="@+id/grb53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Baralachala Pass" />
+
+                    <RadioButton
+                        android:id="@+id/grb54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Banihal Pass" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/geo_clear_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Clear All"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/geo_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:fontFamily="serif"
+                    android:text="Submit"
+                    android:textSize="16sp"
+                    app:cornerRadius="30dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/geo_result1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:letterSpacing="0.2"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Result"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/geo_result2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:text="15/15"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ProgressBar
+                        android:id="@+id/geo_progress_bar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:indeterminateOnly="false"
+                        android:progressDrawable="@drawable/progress_bar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

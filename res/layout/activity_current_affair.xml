@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/current_affair_back"
+    tools:context=".Current_Affair">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DA2B4B5C"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+<!--                Question 1 ans 2-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q1.) What is the name of the cluster of digital solutions like Aadhaar, UPI, Digi Locker, Co-Win, GeM, and GSTN?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/carg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/carb11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Bharat e-platforms" />
+
+                    <RadioButton
+                        android:id="@+id/carb12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" India Stack" />
+
+                    <RadioButton
+                        android:id="@+id/carb13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" e-Bharat" />
+
+                    <RadioButton
+                        android:id="@+id/carb14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Digital Bharat" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <!--                Question 2 ans 1-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q2.) What is the name of the fifth stealth Scorpene class Submarine, which was recently commissioned into the Indian Navy?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/carg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/carb21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" INS Vagir" />
+
+                    <RadioButton
+                        android:id="@+id/carb22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" INS Virat" />
+
+                    <RadioButton
+                        android:id="@+id/carb23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" INS Vaaman" />
+
+                    <RadioButton
+                        android:id="@+id/carb24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" INS Vajra" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+<!--                Question 3 ans 2-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q3.) Which city is the host of the ‘G-20 Working Group on Environment and Climate Sustainability’ meeting?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/carg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/carb31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Chennai" />
+
+                    <RadioButton
+                        android:id="@+id/carb32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Bengaluru" />
+
+                    <RadioButton
+                        android:id="@+id/carb33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Kochi" />
+
+                    <RadioButton
+                        android:id="@+id/carb34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Varanasi" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+<!--                Question 4 ans 2-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q4.) Which armed force started the ‘Ops Alert’ exercise to enhance security?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/carg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/carb41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Indo-Tibetan Border Police Force" />
+
+                    <RadioButton
+                        android:id="@+id/carb42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Border Security Force" />
+
+                    <RadioButton
+                        android:id="@+id/carb43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Central Railway Protection Force" />
+
+                    <RadioButton
+                        android:id="@+id/carb44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Central Industrial Security Force" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+<!--                Question 5 ans 2-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="Q5.) Indian Army launched a joint Training exercise ‘Cyclone – I’ with which country?"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <RadioGroup
+                    android:id="@+id/carg5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RadioButton
+                        android:id="@+id/carb51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" USA" />
+
+                    <RadioButton
+                        android:id="@+id/carb52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Egypt" />
+
+                    <RadioButton
+                        android:id="@+id/carb53"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" France" />
+
+                    <RadioButton
+                        android:id="@+id/carb54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:textColor="@color/white"
+                        android:text=" Sri Lanka" />
+                </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/ca_clear_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Clear All"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ca_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="50dp"
+                    android:fontFamily="serif"
+                    android:text="Submit"
+                    android:textSize="16sp"
+                    app:cornerRadius="30dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/ca_result1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="serif"
+                    android:letterSpacing="0.2"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Result"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/ca_result2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:text="15/15"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ProgressBar
+                        android:id="@+id/ca_progress_bar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center"
+                        android:indeterminateOnly="false"
+                        android:progressDrawable="@drawable/progress_bar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
