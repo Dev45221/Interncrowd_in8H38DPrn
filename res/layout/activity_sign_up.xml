@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SignUp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+            
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/signup"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/txtname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:background="@drawable/background_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="User Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtphone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_call_24"
+                android:background="@drawable/background_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="+91 * * * * * * * * * *"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/txtemail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:background="@drawable/background_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="abc123@gmail.com"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/txtpassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+                android:background="@drawable/background_edittext"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="* * * * * * * *"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btnregister"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#7A6042"
+                android:fontFamily="serif"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                app:cornerRadius="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtorwith"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="- - - - - - - - - -  Or With  - - - - - - - - - -"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtfacebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/fbback"
+                    android:drawableLeft="@drawable/facebook"
+                    android:text="Facebook"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/txtgoogle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/googleback"
+                    android:drawableLeft="@drawable/google"
+                    android:gravity="center"
+                    android:text="Google"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtalready"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Already have an account ? Login"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        </ScrollView>
+</LinearLayout>

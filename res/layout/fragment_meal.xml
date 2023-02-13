@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meal_back"
+    android:orientation="vertical"
+    tools:context=".fragments.MealFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A1977E54"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowRadius="40"
+                android:text="Menu"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp">
+
+                    <CheckBox
+                        android:id="@+id/checkBurger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|top"
+                        android:text="Veg Crispy Burger"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="22dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/burger" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:text="\u20B9"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 30/-"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|left"
+                                android:paddingLeft="10dp"
+                                android:text="Aloo tikki Burger with crisp."
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp">
+
+                    <CheckBox
+                        android:id="@+id/checkPizza"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|top"
+                        android:text="Veg Pizza"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="22dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/pizza" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:text="\u20B9"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 89/-"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|left"
+                                android:paddingLeft="10dp"
+                                android:text="veg cheese pizza with capsiucm and paneer"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp">
+
+                    <CheckBox
+                        android:id="@+id/checkChinese"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|top"
+                        android:text="Veg Chinese"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="22dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/chinese" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:text="\u20B9"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 60/-"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|left"
+                                android:paddingLeft="10dp"
+                                android:text="Veg noodle with manchurian"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp">
+
+                    <CheckBox
+                        android:id="@+id/checkThali"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|top"
+                        android:text="Veg Thali"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="22dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/thali" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:text="\u20B9"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 250/-"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|left"
+                                android:paddingLeft="10dp"
+                                android:text="1 sweet, 2 parantha, 2 chapati, rice, boondi raita, salad, matar paneer, mix veg."
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="10dp">
+
+                    <CheckBox
+                        android:id="@+id/checkDeesert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center|top"
+                        android:text="Deesert"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="22dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/deesert" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:text="\u20B9"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" 50/-"
+                                    android:textColor="@color/black"
+                                    android:textSize="16dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center|left"
+                                android:paddingLeft="10dp"
+                                android:text="Blueberry Ice-Cream"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/placeOrder"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="100dp"
+                android:fontFamily="serif"
+                android:text="Place Order"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

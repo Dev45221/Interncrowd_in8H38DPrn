@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meal_back"
+    tools:context=".fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#C8594B3E">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Welcome to Yummy Foods"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/yummylottie"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/yummy" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/homeViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

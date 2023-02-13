@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.quiz">
+    package="com.example.yummyfoods">
 
     <application
         android:allowBackup="true"
@@ -11,46 +11,26 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Quiz"
+        android:theme="@style/Theme.YummyFoods"
         tools:targetApi="31">
         <activity
-            android:name=".Java_Language"
+            android:name=".Activity.Dashboard"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".PHP_Language"
+            android:name=".Activity.SignIn"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".Python_Language"
+            android:name=".Activity.SignUp"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".CPP_Language"
+            android:name=".Activity.Login"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".C_Language"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Programming_Language"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Geography"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Current_Affair"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".Topic"
-            android:exported="false"
-            android:screenOrientation="portrait"/>
-        <activity
-            android:name=".MainActivity"
+            android:name=".Activity.Splash"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -59,6 +39,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
